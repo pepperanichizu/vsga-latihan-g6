@@ -31,7 +31,7 @@
                             <td><?php echo $row['nama_anggota'] ?></td>
                             <td><?php echo $row['hp_anggota'] ?></td>
                             <td>
-                                <a href="deleteAnggota.php?id_anggota<?php echo $row['id_anggota']; ?>" role="button" class="btn btn-danger">Hapus</a>
+                                <a href="hapusAnggota.php?id_anggota<?php echo $row['id_anggota']; ?>" role="button" class="btn btn-danger">Hapus</a>
                                 <a href="editAnggota.php?id_anggota=<?php echo $row['id_anggota']; ?>" role="button" class="btn btn-warning">Edit</a>
                             </td>
                         </tr>
